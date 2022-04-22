@@ -52,10 +52,9 @@ console.log(sumarMatriz(arrayMatriz))
 function crearMatrizCuadrada(numero){
     let matriz= []
     let filas = []
-    let conteo = 1;
     for (let i = 0; i < numero; i++) {
         for (let j = 0; j < numero; j++) {
-            filas.push(conteo++)
+            filas.push(Math.floor(Math.random() * 10))
         }
         matriz.push(filas)
         filas = []
