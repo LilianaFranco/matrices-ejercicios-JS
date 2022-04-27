@@ -131,7 +131,7 @@ function crearMatriz(numero){
     let fila = []
     for (let i = 0; i < numero; i++) {
         for (let j = 0; j < numero; j++) {
-            fila.push(Math.floor(Math.random() * -30))
+            fila.push(Math.floor(Math.random() * 30))
         }
         matriz.push(fila)
         fila = []
